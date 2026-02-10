@@ -1,0 +1,7 @@
+No of applications are : 5
+Application 1: Online Bill Submission
+Application 2: Administration
+Application 3: e Deposit
+Application 4: SCHEME PAYMENT SYSTEM
+Application 5: Bill Pending at ddo Approver level
+74

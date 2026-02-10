@@ -1,0 +1,17 @@
+[
+  {
+    "username": "bash_ap",
+    "password": "Changeme@123",
+    "validity": "valid"
+  },
+  {
+    "username": "bash_op",
+    "password": "Changeme@123",
+    "validity": "valid"
+  },
+  {
+    "username": "bash_ap",
+    "password": "changeme@321",
+    "validity": "Invalid"
+  }
+]

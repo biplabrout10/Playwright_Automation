@@ -1,0 +1,283 @@
+# Page snapshot
+
+```yaml
+- img "Header Logo"
+- img "Header Logo"
+- img "Header Logo"
+- img "Header Logo"
+- table:
+  - rowgroup:
+    - row "Finance Department Devider Directorate of Treasuries Devider Controller of Accounts Devider Stakeholders Devider e-Services Devider Citizen Services":
+      - cell "Finance Department Devider Directorate of Treasuries Devider Controller of Accounts Devider Stakeholders Devider e-Services Devider Citizen Services":
+        - list:
+          - listitem:
+            - link "Finance Department":
+              - /url: javascript:void(0)
+          - listitem:
+            - link "Devider":
+              - /url: javascript:void(0)
+              - img "Devider"
+          - listitem:
+            - link "Directorate of Treasuries":
+              - /url: javascript:void(0)
+          - listitem:
+            - link "Devider":
+              - /url: javascript:void(0)
+              - img "Devider"
+          - listitem:
+            - link "Controller of Accounts":
+              - /url: javascript:void(0)
+          - listitem:
+            - link "Devider":
+              - /url: javascript:void(0)
+              - img "Devider"
+          - listitem:
+            - link "Stakeholders":
+              - /url: javascript:void(0)
+          - listitem:
+            - link "Devider":
+              - /url: javascript:void(0)
+              - img "Devider"
+          - listitem:
+            - link "e-Services":
+              - /url: javascript:void(0)
+          - listitem:
+            - link "Devider":
+              - /url: javascript:void(0)
+              - img "Devider"
+          - listitem:
+            - link "Citizen Services":
+              - /url: javascript:void(0)
+          - listitem
+    - row "Header Logo Important Notice Call Log Call Log devider e-payment e-Payment devider devider MIS & Dashboard MIS & Dashboard ddo interface DDO Interface devider devider works expenditure Works Expenditure Budget Budget Distribution devider devider Finance Department Portal Budget Distribution Budget Estimation Debt Management Commitment Management Controller of Accounts Website GPF/Pension Queries Teacher's PF Pension Preparation Pension FormsNEW Other e-Services e-Payment Reprint Challan Accounts Correction Know your Payment Status Directorate of Treasuries iOTMS Portal Cyber Treasury Treasury Monitoring PL Deposits Online Inspection Stakeholders RBI Interface Bank Interface AG Interface A/c Reconciliation Citizen Services Bill Query Challan Query Pension Payment Income Tax form 16 for pensionerNEW Reports New Modules Upcoming Modules iOTMS Portal Pension Portal Helpdesk":
+      - cell "Header Logo Important Notice Call Log Call Log devider e-payment e-Payment devider devider MIS & Dashboard MIS & Dashboard ddo interface DDO Interface devider devider works expenditure Works Expenditure Budget Budget Distribution devider devider":
+        - img "Header Logo"
+        - img "Important Notice"
+        - table:
+          - rowgroup:
+            - row "Call Log Call Log devider e-payment e-Payment":
+              - cell "Call Log":
+                - img "Call Log"
+              - cell "Call Log":
+                - link "Call Log":
+                  - /url: /mantis
+              - cell "devider":
+                - img "devider"
+              - cell "e-payment":
+                - img "e-payment"
+              - cell "e-Payment":
+                - link "e-Payment":
+                  - /url: /echallan
+            - row "devider devider":
+              - cell "devider":
+                - img "devider"
+              - cell "devider":
+                - img "devider"
+            - row "MIS & Dashboard MIS & Dashboard ddo interface DDO Interface":
+              - cell "MIS & Dashboard":
+                - img "MIS & Dashboard"
+              - cell "MIS & Dashboard":
+                - link "MIS & Dashboard":
+                  - /url: /webfd?userType=11&subSys=F
+              - cell "ddo interface":
+                - img "ddo interface"
+              - cell "DDO Interface":
+                - link "DDO Interface":
+                  - /url: /ifmshome
+            - row "devider devider":
+              - cell "devider":
+                - img "devider"
+              - cell "devider":
+                - img "devider"
+            - row "works expenditure Works Expenditure Budget Budget Distribution":
+              - cell "works expenditure":
+                - img "works expenditure"
+              - cell "Works Expenditure":
+                - link "Works Expenditure":
+                  - /url: /ifmshome
+              - cell "Budget":
+                - img "Budget"
+              - cell "Budget Distribution":
+                - link "Budget Distribution":
+                  - /url: /ifmshome
+            - row "devider devider":
+              - cell "devider":
+                - img "devider"
+              - cell "devider":
+                - img "devider"
+      - cell "Finance Department Portal Budget Distribution Budget Estimation Debt Management Commitment Management Controller of Accounts Website GPF/Pension Queries Teacher's PF Pension Preparation Pension FormsNEW Other e-Services e-Payment Reprint Challan Accounts Correction Know your Payment Status":
+        - text: Finance Department
+        - list:
+          - listitem:
+            - link "Portal":
+              - /url: http://www.odisha.gov.in/finance
+          - listitem:
+            - link "Budget Distribution":
+              - /url: /ifmshome
+          - listitem:
+            - link "Budget Estimation":
+              - /url: /ifmshome
+          - listitem:
+            - link "Debt Management":
+              - /url: /ifmshome
+          - listitem:
+            - link "Commitment Management":
+              - /url: /ifmshome
+        - text: Controller of Accounts
+        - list:
+          - listitem:
+            - link "Website":
+              - /url: http://caodisha.nic.in/
+          - listitem:
+            - link "GPF/Pension Queries":
+              - /url: /tpfcs
+          - listitem:
+            - link "Teacher's PF":
+              - /url: /ifmshome
+          - listitem:
+            - link "Pension Preparation":
+              - /url: /ifmshome
+          - listitem:
+            - link "Pension FormsNEW":
+              - /url: /tpfcs/pension_form_page.html
+              - text: Pension Forms
+              - img "NEW"
+        - text: Other e-Services
+        - list:
+          - listitem:
+            - link "e-Payment":
+              - /url: /echallan
+          - listitem:
+            - link "Reprint Challan":
+              - /url: /echallan/search-challan
+          - listitem:
+            - link "Accounts Correction":
+              - /url: /ifmshome
+          - listitem:
+            - link "Know your Payment Status":
+              - /url: /ecitizenservices/beneficiary-pay-history
+      - cell "Directorate of Treasuries iOTMS Portal Cyber Treasury Treasury Monitoring PL Deposits Online Inspection Stakeholders RBI Interface Bank Interface AG Interface A/c Reconciliation Citizen Services Bill Query Challan Query Pension Payment Income Tax form 16 for pensionerNEW Reports":
+        - text: Directorate of Treasuries
+        - list:
+          - listitem:
+            - link "iOTMS Portal":
+              - /url: /webportal
+          - listitem:
+            - link "Cyber Treasury":
+              - /url: /webtreasury
+          - listitem:
+            - link "Treasury Monitoring":
+              - /url: /webfd?userType=3&subSys=F
+          - listitem:
+            - link "PL Deposits":
+              - /url: /ifmshome
+          - listitem:
+            - link "Online Inspection":
+              - /url: /ifmshome
+        - text: Stakeholders
+        - list:
+          - listitem:
+            - link "RBI Interface":
+              - /url: /webinterfaces
+          - listitem:
+            - link "Bank Interface":
+              - /url: /webinterfaces
+          - listitem:
+            - link "AG Interface":
+              - /url: /webinterfaces?userType=7&subSys=C
+          - listitem:
+            - link "A/c Reconciliation":
+              - /url: /ifmshome
+        - text: Citizen Services
+        - list:
+          - listitem:
+            - link "Bill Query":
+              - /url: /webportal/ApplicationDispatcher.do?appsId=124
+          - listitem:
+            - link "Challan Query":
+              - /url: /webportal/ApplicationDispatcher.do?appsId=123
+          - listitem:
+            - link "Pension Payment":
+              - /url: /webportal/ApplicationDispatcher.do?appsId=125
+          - listitem:
+            - link "Income Tax form 16 for pensionerNEW":
+              - /url: /ecitizenservices/pension-form16-download
+              - text: Income Tax form 16 for pensioner
+              - img "NEW"
+          - listitem:
+            - link "Reports":
+              - /url: /webportal/MonthlyReport.do?rconfig=DDO&reportId=1
+      - cell "New Modules Upcoming Modules iOTMS Portal Pension Portal Helpdesk":
+        - link "New Modules":
+          - /url: javascript:void(0)
+          - img "New Modules"
+        - link "Upcoming Modules":
+          - /url: http://www.pension.odishatreasury.gov.in
+          - img "Upcoming Modules"
+        - link "iOTMS Portal":
+          - /url: /webportal
+          - img "iOTMS Portal"
+        - link "Pension Portal":
+          - /url: /pensionerscorner
+          - img "Pension Portal"
+        - link "Helpdesk":
+          - /url: javascript:void(0)
+          - img "Helpdesk"
+    - row "All payment files relating to CSS under SNA SPARSH are to be processed and submitted to PFMS latest by 5:00 PM on 26-03-2025 (WEDNESDAY) as per FD letter No. 9123/F dated 20-03-2025. Therefore, it is requested to take necessary steps to ensure that the above timeline is adhered for release of funds in time. All Treasuries are instructed to ensure that such payment advices are submitted to CePC by 6:00 PM on 26-03-2025 without fail. Debt Management System NPS":
+      - cell "All payment files relating to CSS under SNA SPARSH are to be processed and submitted to PFMS latest by 5:00 PM on 26-03-2025 (WEDNESDAY) as per FD letter No. 9123/F dated 20-03-2025. Therefore, it is requested to take necessary steps to ensure that the above timeline is adhered for release of funds in time. All Treasuries are instructed to ensure that such payment advices are submitted to CePC by 6:00 PM on 26-03-2025 without fail."
+      - cell "Debt Management System NPS":
+        - link "Debt Management System":
+          - /url: /ssoauth
+          - img "Debt Management System"
+        - link "NPS":
+          - /url: https://www.odishatreasury.gov.in/webportal/NpsCorner.do
+          - img "NPS"
+    - row "User Manual Downloads Jeevan Praman Analytics Tender User Manual Downloads Jeevan Pramman Analytics Tender Logo Bottom POWERED BY":
+      - cell "User Manual Downloads Jeevan Praman Analytics Tender User Manual Downloads Jeevan Pramman Analytics Tender":
+        - table:
+          - rowgroup:
+            - row "User Manual Downloads Jeevan Praman Analytics Tender":
+              - cell "User Manual":
+                - link "User Manual":
+                  - /url: /webportal/PortalPages.do?page=Downloads.jsp
+                  - img "User Manual"
+              - cell "Downloads":
+                - link "Downloads":
+                  - /url: /webportal/downloadform.do
+                  - img "Downloads"
+              - cell "Jeevan Praman":
+                - link "Jeevan Praman":
+                  - /url: https://jeevanpramaan.gov.in
+                  - img "Jeevan Praman"
+              - cell "Analytics":
+                - link "Analytics":
+                  - /url: https://www.odishatreasury.gov.in/webportal/PortalPages.do?page=GraphicalReports.jsp
+                  - img "Analytics"
+              - cell "Tender":
+                - link "Tender":
+                  - /url: https://www.odishatreasury.gov.in/webportal/newtender.do
+                  - img "Tender"
+            - row "User Manual Downloads Jeevan Pramman Analytics Tender":
+              - cell "User Manual"
+              - cell "Downloads"
+              - cell "Jeevan Pramman"
+              - cell "Analytics"
+              - cell "Tender"
+      - cell "Logo Bottom POWERED BY":
+        - table:
+          - rowgroup:
+            - row "Logo Bottom POWERED BY":
+              - cell "Logo Bottom":
+                - img "Logo Bottom"
+              - cell "POWERED BY":
+                - img "POWERED BY"
+              - cell:
+                - 'table "CLICK TO VERIFY: This site uses a GlobalSign SSL Certificate to secure your personal information."':
+                  - rowgroup:
+                    - row:
+                      - cell
+- paragraph:
+  - text: Copyright © 2025, All rights reserved with Directorate of Treasuries & Inspection, Odisha.
+  - link "Disclaimer":
+    - /url: javascript:void(0)
+```

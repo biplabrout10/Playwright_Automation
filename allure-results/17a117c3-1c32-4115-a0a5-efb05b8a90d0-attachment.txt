@@ -1,0 +1,14 @@
+Trace: 
+    at IfmsHomePage.ShowApplicationList (C:\Playwright_Automation\pages\IfmsHomePage.ts:62:13)
+    at C:\Playwright_Automation\tests\DDOLoginTest.spec.ts:17:24
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at processImmediate (node:internal/timers:453:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at C:\Playwright_Automation\node_modules\playwright\lib\worker\workerMain.js:304:9
+    at C:\Playwright_Automation\node_modules\playwright\lib\worker\testInfo.js:289:11
+    at TimeoutManager.withRunnable (C:\Playwright_Automation\node_modules\playwright\lib\worker\timeoutManager.js:67:14)
+    at TestInfoImpl._runWithTimeout (C:\Playwright_Automation\node_modules\playwright\lib\worker\testInfo.js:287:7)
+    at C:\Playwright_Automation\node_modules\playwright\lib\worker\workerMain.js:302:7
+    at WorkerMain._runTest (C:\Playwright_Automation\node_modules\playwright\lib\worker\workerMain.js:277:5)
+    at WorkerMain.runTestGroup (C:\Playwright_Automation\node_modules\playwright\lib\worker\workerMain.js:193:11)
+    at process.<anonymous> (C:\Playwright_Automation\node_modules\playwright\lib\common\process.js:65:22)

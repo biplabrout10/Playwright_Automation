@@ -1,0 +1,104 @@
+# Page snapshot
+
+```yaml
+- table:
+  - rowgroup:
+    - row:
+      - cell
+- table:
+  - rowgroup:
+    - row "loginleft Login ID Password LOGIN CLEAR Forgot Password?":
+      - cell
+      - cell
+      - cell "loginleft Login ID Password LOGIN CLEAR Forgot Password?":
+        - table:
+          - rowgroup:
+            - row "loginleft":
+              - cell "loginleft":
+                - img "loginleft"
+              - cell
+        - table:
+          - rowgroup:
+            - row:
+              - cell
+              - cell:
+                - img
+              - cell
+        - table:
+          - rowgroup:
+            - row:
+              - cell
+              - cell:
+                - img
+              - cell
+        - table:
+          - rowgroup:
+            - row:
+              - cell
+              - cell:
+                - img
+              - cell:
+                - img
+              - cell:
+                - img
+              - cell
+            - row "Login ID Password LOGIN CLEAR Forgot Password?":
+              - cell "Login ID Password LOGIN CLEAR Forgot Password?":
+                - table:
+                  - rowgroup:
+                    - row:
+                      - cell
+                    - row:
+                      - cell
+                    - row "Login ID":
+                      - cell "Login ID"
+                      - cell:
+                        - textbox
+                    - row "Password":
+                      - cell "Password"
+                      - cell:
+                        - textbox
+                    - row:
+                      - cell
+                    - row "LOGIN CLEAR":
+                      - cell "LOGIN CLEAR":
+                        - button "LOGIN"
+                        - button "CLEAR"
+                    - row:
+                      - cell
+                    - row:
+                      - cell
+                    - row:
+                      - cell
+                    - row "Forgot Password?":
+                      - cell "Forgot Password?":
+                        - link "Forgot Password?":
+                          - /url: javascript:void(0)
+                    - row:
+                      - cell
+                - table:
+                  - rowgroup:
+                    - row:
+                      - cell:
+                        - img
+              - cell:
+                - img
+              - cell
+            - row:
+              - cell:
+                - table:
+                  - rowgroup:
+                    - row:
+                      - cell
+                      - cell
+                      - cell
+      - cell
+      - cell
+- table:
+  - rowgroup:
+    - 'row "Designed and developed by: TCS Limited | Best viewed in IE - 9 and 1024x768 resolution"':
+      - 'cell "Designed and developed by: TCS Limited | Best viewed in IE - 9 and 1024x768 resolution"':
+        - text: "Designed and developed by:"
+        - strong: TCS Limited
+        - text: "| Best viewed in IE - 9 and 1024x768 resolution"
+```
