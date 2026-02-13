@@ -5,7 +5,7 @@ export class TestConfig {
   pageTitle = 'iFMS :: Integrated Financial Management System, Odisha';
   esbmsUrl='https://uat.odishatreasury.gov.in/esbms';
   webbillUrl='https://uat.odishatreasury.gov.in/webbill';
-  prodPortalUrl='https://www.odishatreasury.gov.in/portal';
+  prodPortalUrl='https://www.odishatreasury.gov.in/portal/';
   echallanUrl='https://www.odishatreasury.gov.in/echallan';
 
   //Login Credentials
