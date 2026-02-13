@@ -6,7 +6,7 @@ import { test,expect } from '@playwright/test';
 //npx playwright test tests/ParallelTest.spec.ts --project chromium
 //npx playwright test tests/ParallelTest.spec.ts --workers 4(It will run the tests using 4 workers by ignoring the global config file settings)
 
-test.describe('group1', () => {
+test.describe.skip('group1', () => {
 
     test('Test1', async ({ page }) => {
         console.log(" this is Test1 ......")

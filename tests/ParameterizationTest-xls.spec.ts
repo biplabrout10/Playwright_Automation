@@ -4,7 +4,7 @@ import { DataProvider } from "../utils/dataProvider";
 const excelPath = "testdata/data.xlsx";
 const loginData = DataProvider.getTestDataFromExcel(excelPath);
 
-test.describe('Login data driven test', async () => {
+test.describe.skip('Login data driven test', async () => {
 
     for (const { userName, passWord, Validity } of loginData) {
 

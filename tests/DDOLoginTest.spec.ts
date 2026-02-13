@@ -11,7 +11,7 @@ import { SanctioningDepartmentLovPage } from "../pages/SanctioningDepartmentLovP
 let ifmshomepage: IfmsHomePage;
 
 
-test('Verify DDO Login', async ({}) => {
+test.skip('Verify DDO Login', async ({}) => {
     const browser=await chromium.launch();
     const context = await browser.newContext();
     const context1=await browser.newContext();

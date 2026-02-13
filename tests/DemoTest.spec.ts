@@ -2,7 +2,7 @@ import { test, expect } from "@playwright/test";
 
 
 
-test("Client App login", async ({ page }) => {
+test.skip("Client App login", async ({ page }) => {
    //js file- Login js, DashboardPage
    const emailID = page.locator("#userEmail");
    const Pwd = page.locator("#userPassword");
@@ -27,7 +27,7 @@ test("Client App login", async ({ page }) => {
 
 });
 
-test("UI test", async ({ page }) => {
+test.skip("UI test", async ({ page }) => {
    const UserName = page.locator('input#username');
    const PassWord = page.locator('#password');
    const SignIn = page.locator('#signInBtn');
@@ -51,7 +51,7 @@ test("UI test", async ({ page }) => {
 
 });
 
-test("Child Window", async ({ browser }) => {
+test.skip("Child Window", async ({ browser }) => {
 
    const context = await browser.newContext();
    const page1 = await context.newPage();

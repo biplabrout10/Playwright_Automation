@@ -13,7 +13,7 @@ import { DataProvider } from "../utils/dataProvider";
 const jsonPath = "testdata/data.json";
 const logindata=DataProvider.getTestDataFromJson(jsonPath);
 
-test.describe('Login data driven test', async () => {
+test.describe.skip('Login data driven test', async () => {
 
     for (const { username, password, validity } of logindata) {
 

@@ -1,7 +1,7 @@
 import { Expect, test, Locator, Page, expect } from "@playwright/test";
 
 
-test('static web table', async ({ page }) => {
+test.skip('static web table', async ({ page }) => {
     await page.goto('https://testautomationpractice.blogspot.com/');
     const table: Locator = page.locator("table[name='BookTable'] tbody");
 

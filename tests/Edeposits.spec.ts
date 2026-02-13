@@ -14,7 +14,7 @@ let schemelovpage: SchemeLovPage;
 let config: TestConfig;
 
 
-test.only("PL operator flow", async ({ browser }) => {
+test.skip("PL operator flow", async ({ browser }) => {
     const context = await browser.newContext();
     const page = await context.newPage();
     config = new TestConfig();

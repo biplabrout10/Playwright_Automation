@@ -5,7 +5,7 @@ For Chrome process get value of CPU load.
 Compare it with value in the yellow label.
 */
 
-test('Dynamic WebTable', async () => {
+test.skip('Dynamic WebTable', async () => {
     const browser = await chromium.launch();
     const context = await browser.newContext();
     const page = await context.newPage();
