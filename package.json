@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test:master": "playwright test --grep @master",
+    "test": "playwright test",
     "test:sanity": "playwright test --grep @sanity",
     "test:regression": "playwright test --grep @regression",
     "test:datadriven": "playwright test --grep @datadriven",
