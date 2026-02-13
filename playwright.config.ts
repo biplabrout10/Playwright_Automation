@@ -17,16 +17,16 @@ const config = ({
   
 
   projects: [
-    // {
-    //   name: 'chromium',
-    //   use: { ...devices['Desktop Chrome'] },
-    //   fullyParallel: true,
-    // },
     {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
+      name: 'chromium',
+      use: { ...devices['Desktop Chrome'] },
       fullyParallel: true,
     },
+    // {
+    //   name: 'firefox',
+    //   use: { ...devices['Desktop Firefox'] },
+    //   fullyParallel: true,
+    // },
     // {
     //   name: 'webkit',
     //   use: { ...devices['Desktop Safari'] },
@@ -38,7 +38,7 @@ const config = ({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     //browserName: 'chromium',
-    headless: false,
+    headless: true,
     screenshot: 'only-on-failure',
     trace: 'retain-on-failure',
     video: 'on',
