@@ -9,7 +9,7 @@ let config: TestConfig;
 
 test.only("Launch Ifms portal", async ({ browser }) => {
     const context = await browser.newContext();
-    const page = await context.newPage();
+    //const page = await context.newPage();
     config = new TestConfig();
     await page.goto(config.prodPortalUrl);
     const ifmsportalpage=new PortalPage(page,context);
