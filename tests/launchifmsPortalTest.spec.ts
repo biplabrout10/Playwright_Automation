@@ -13,7 +13,7 @@ test.only("Launch Ifms portal", async ({ browser }) => {
     config = new TestConfig();
     await page.goto(config.prodPortalUrl);
     const ifmsportalpage=new PortalPage(page,context);
-    //await ifmsportalpage.closeModalPopup();
+    await ifmsportalpage.isHeaderLogoPresent();
     
 });
 

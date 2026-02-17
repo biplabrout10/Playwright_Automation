@@ -10,7 +10,7 @@ export class PortalPage {
   private readonly context: Context;
   private readonly DDOInterface: Locator;
   private readonly PageTitle: Locator;
-  private readonly ModalPopup: Locator;
+  private readonly HeaderLogo: Locator;
 
   //constructor
   constructor(page: Page, context: BrowserContext) {
@@ -18,7 +18,7 @@ export class PortalPage {
     this.context = context;
     this.DDOInterface = page.locator('tbody tr:nth-child(3) td:nth-child(4) a:nth-child(1)');
     this.PageTitle = page.getByTitle('iFMS :: Integrated Financial Management System, Odisha');
-    this.ModalPopup = page.locator('.modal-close');
+    this.HeaderLogo = page.locator('div.logo');
   }
 
   //action methods 
@@ -36,8 +36,8 @@ export class PortalPage {
     await expect(this.page).toHaveTitle(title);
   }
 
-  async closeModalPopup() {
-    await this.ModalPopup.click();
+  async isHeaderLogoPresent() {
+    await expect(this.HeaderLogo).toBeVisible();
   }
 
 }
