@@ -3,16 +3,13 @@ import { Context } from "vm";
 
 export class SanctioningDepartmentLovPage {
     private readonly page: Page;
-    private readonly TopFrame: Locator;
-    private readonly BodyFrame: Locator;
-    private readonly ButtonFrame: Locator;
     private readonly DepartmentCodeSearchField: Locator;
     private readonly DepartmentCodeSearchButton: Locator;
     private readonly FirstDepartmentCode: Locator;
     private readonly SelectDepartmentCode: Locator;
     private readonly DepartmentCodeInput: Locator;
     private readonly DepartmentNameInput: Locator;
-    private readonly DepartmentLovCancel: Locator;
+    //private readonly DepartmentLovCancel: Locator;
 
     constructor(page: Page) {
         this.page = page;

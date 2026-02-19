@@ -3,9 +3,6 @@ import { Context } from "vm";
 
 export class SanctionPurposeLovPage{
     private readonly page: Page;
-    private readonly TopFrame: Locator;
-    private readonly BodyFrame: Locator;
-    private readonly ButtonFrame: Locator;
     private readonly FirstPurpose: Locator;
     private readonly SelectPurpose: Locator;
 
